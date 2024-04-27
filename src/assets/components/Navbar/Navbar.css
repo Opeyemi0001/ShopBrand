@@ -1,0 +1,46 @@
+
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo{
+    width: 150px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 16px;
+    color:#000000;
+    width:max(10vh,321px);
+    flex: 1;
+    margin-left: 24px;
+    
+}
+.navbar-menu img{
+    width: 16px;
+    height: 16px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+input{
+    background: url(../../Homepage/search_icon.png) no-repeat scroll 7px 7px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 62px;
+    background-size: 19px;
+    font-family: Satoshi;
+    font-size: 16px;
+    align-items: center;
+    background-color: #F0F0F0;
+    width: max(10vw,500px);
+    text-align: left;
+    gap: 12px;
+}
