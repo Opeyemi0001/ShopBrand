@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    margin:auto;
 }
 .navbar .logo{
     width: 150px;
@@ -11,27 +13,33 @@
     font-size: 32px;
 }
 .navbar-menu{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+/* .select-menu{
+    position: absolute;
+    right: 50px;
+} */
+
+.menu-list{
     display: flex;
     list-style: none;
     gap: 20px;
     font-size: 16px;
     color:#000000;
     width:max(10vh,321px);
-    flex: 1;
     margin-left: 24px;
-    
 }
-.navbar-menu img{
-    width: 16px;
-    height: 16px;
-}
+
 .navbar-right{
     display: flex;
     align-items: center;
     gap: 14px;
 }
 input{
-    background: url(../../Homepage/search_icon.png) no-repeat scroll 7px 7px;
+    background: url(../../assets/Homepage/search_icon.png) no-repeat scroll 7px 7px;
     border: none;
     padding: 10px 30px;
     border-radius: 62px;
@@ -43,4 +51,11 @@ input{
     width: max(10vw,500px);
     text-align: left;
     gap: 12px;
+}
+.menu-list .active{
+    padding-bottom:2px ;
+    border-bottom: 2px solid #000000;
+}
+.menu-list li{
+    cursor: pointer;
 }
