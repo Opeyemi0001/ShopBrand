@@ -51,7 +51,7 @@ const TopSelling = () => {
                 </div>
                 <button>View All</button>
             </div>
-            <hr />
+            {/* <hr /> */}
         </div>
   )
 }
