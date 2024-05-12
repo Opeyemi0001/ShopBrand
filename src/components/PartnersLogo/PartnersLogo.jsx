@@ -8,8 +8,7 @@ import calvinklein from '../../assets/Homepage/Group-1.png'
 
 const PartnersLogo = () => {
     return (
-        <div className='partnerslogo'>
-            {/* <div className='partnerlogo' ></div> */}
+        <div className='partnerslogo'id='partnerslogo' >
                 <img src={versace} alt="" />
                 <img src={gucci} alt="" />
                 <img src={zara} alt="" />

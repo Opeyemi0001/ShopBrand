@@ -13,7 +13,7 @@ import thirtypercent from '../../assets/Homepage/Frame 43.png'
 
 const NewArrivals = () => {
     return (
-        <div className='newarrivals'>
+        <div className='newarrivals' id='newarrivals'>
             <div className='newarrivals-contents'>
                 <h1>NEW ARRIVALS</h1>
                 <div className='newarrivals-clothes'>

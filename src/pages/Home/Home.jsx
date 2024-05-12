@@ -4,6 +4,9 @@ import React from 'react'
  import PartnersLogo from '../../components/PartnersLogo/PartnersLogo'
 import NewArrivals from '../../components/NewArrivals/NewArrivals'
 import TopSelling from '../../components/TopSelling/TopSelling'
+import BrowseByStyle from '../../components/BrowserByStyle/BrowseByStyle'
+import HappyCustomer from '../../components/HappyCustomer/HappyCustomer'
+import Subcribe from '../../components/Subcribe/Subcribe'
 
  const Home = () => {
    return (
@@ -12,6 +15,10 @@ import TopSelling from '../../components/TopSelling/TopSelling'
         <PartnersLogo/>
         <NewArrivals/>
         <TopSelling/>
+        <BrowseByStyle/>
+        <HappyCustomer />
+        <Subcribe />
+        
      </div>
    )
  }

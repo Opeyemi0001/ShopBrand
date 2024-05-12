@@ -12,7 +12,7 @@ import thirtypercent from '../../assets/Homepage/Frame 43.png'
 
 const TopSelling = () => {
   return (
-    <div className='topselling'>
+    <div className='topselling' id='topselling' >
             <div className='topselling-contents'>
                 <h1>TOP SELLING</h1>
                 <div className='topselling-clothes'>
