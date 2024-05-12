@@ -1,7 +1,7 @@
 .header{
     height: 87vh;
     background-image: url(/public/Rectangle\ 2.png);
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
