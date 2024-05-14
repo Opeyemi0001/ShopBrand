@@ -8,6 +8,9 @@
     margin:auto;
     gap: 20px;
 }
+.navbar .navicon{
+    display: none;
+}
 .navbar .logo{
     width: 150px;
     font-weight: 700;
@@ -53,7 +56,9 @@ input{
 }
 input::placeholder{
     color: #00000066;
-
+}
+.searchicon{
+    display: none;
 }
 .menu-list .active{
     padding-bottom:2px ;
@@ -141,6 +146,26 @@ input::placeholder{
 @media (max-width:850px) {
     .menu-list{
         display: none;
+    }
+    .navbar .navicon{
+        display: block;
+    }
+    .navbar .logo{
+        width: 90px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .navbar-right .search-bar{
+        display: none;
+    }
+    .searchicon{
+        display: block;
+        color: #000000;
+        
+    }
+    .navbar-right{
+        justify-content: end;
+        gap: 7px;
     }
 }
 /* @media (max-width:650px) {

@@ -4,6 +4,8 @@ import Basket from "../../assets/Homepage/basket.png";
 import identity from "../../assets/Homepage/Identity.png";
 import selectArrow from "../../assets/Homepage/selectArrow.png";
 import searchBar from "../../assets/Homepage/search_icon.png";
+import navIcon from "../../assets/Homepage/NavIcon.png";
+import searchIconBlack from "../../assets/Homepage/searchIconBlack.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -11,6 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
+      <img className="navicon" src={navIcon} alt="" />
       <h1 className="logo">SHOP.CO</h1>
       <div className="navbar-menu">
         <ul className="menu-list">
@@ -50,6 +53,7 @@ const Navbar = () => {
             placeholder="Search for product.."
           />
         </div>
+        <img className="searchicon" src={searchIconBlack} alt="" />
         <img src={Basket} alt="" />
         <img src={identity} alt="" />
       </div>
