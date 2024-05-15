@@ -29,7 +29,6 @@ const Header = () => {
                     </div>
                     <hr className='second-hr' />
                     <div className='column-two'>
-
                         <div className='third-figure'>
                             <p className='figure'>30,000+</p>
                             <p className='header-contents-p'> Happy Customers</p>

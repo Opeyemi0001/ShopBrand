@@ -1,49 +1,83 @@
-.footer{
-    background-color: #F0F0F0;
-    padding: 20px 5vw;
-    padding-top: 150px;
-    margin-top: -100px;
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px 5vw;
+  padding-top: 150px;
+  margin-top: -100px;
 }
-.footer-content{
-    display: grid;
-    gap: 80px;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    margin-bottom: 40px;
+.footer-content {
+  display: grid;
+  gap: 80px;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 40px;
 }
 
-.footer-content-shop li, .footer-content-company li, .footer-content-help li, .footer-content-faq li, .footer-content-resources li{
-    list-style: none;
-    margin-bottom: 20px ;
-    cursor: pointer;
-    color:#00000099;
-    margin-top: 20px ;
+.footer-content-shop li,
+.footer-content-company li,
+.footer-content-help li,
+.footer-content-faq li,
+.footer-content-resources li {
+  list-style: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: #00000099;
+  margin-top: 20px;
 }
-.footer-content-company h3, .footer-content-help h3, .footer-content-faq h3, .footer-content-resources h3{
-    color: #000000;
+.footer-content-company h3,
+.footer-content-help h3,
+.footer-content-faq h3,
+.footer-content-resources h3 {
+  color: #000000;
 }
-.footer-content-shop h1{
-    font-size: 46px;
-    margin-top: -16px;
+.footer-content-shop h1 {
+  font-size: 46px;
+  margin-top: -16px;
 }
-.footer-content-shop p{
-    margin-bottom: 50px;
-    color: #00000099;
+.footer-content-shop p {
+  margin-bottom: 50px;
+  color: #00000099;
 }
-.social-logo img{
-    padding-right:15px;
-    cursor: pointer;
+.social-logo img {
+  padding-right: 15px;
+  cursor: pointer;
 }
-.footer hr{
-    height: 1px;
-    margin: 20px 0px;
-    border: 1px solid #0000001A;
+.footer hr {
+  height: 1px;
+  margin: 20px 0px;
+  border: 1px solid #0000001a;
 }
 .copyright {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.copyright p{
-    margin-top: 11px;
+.copyright p {
+  margin-top: 11px;
+  color: #00000099;
+  font-size: 15px;
+}
+@media (max-width: 750px) {
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .footer-content-shop {
+    grid-column: span 2;
+  }
+  .footer-content-shop p {
+    margin-bottom: 20px;
+  }
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright p {
+    margin-top: 4px;
     color: #00000099;
-    font-size: 15px;
+    font-size: 13px;
+  }
+  .atmlogo img {
+    margin-left: -9px;
+    width: 12vw;
+  }
 }

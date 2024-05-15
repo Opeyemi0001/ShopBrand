@@ -8,12 +8,17 @@ import calvinklein from '../../assets/Homepage/Group-1.png'
 
 const PartnersLogo = () => {
     return (
-        <div className='partnerslogo'id='partnerslogo' >
+        <div className='partnerslogo' id='partnerslogo' >
+            <div className='column-one'>
                 <img src={versace} alt="" />
                 <img src={gucci} alt="" />
                 <img src={zara} alt="" />
-                <img src={prada} alt="" />
-                <img src={calvinklein} alt="" />
+            </div>
+            <div className='partnerslogo-column-two'>
+                <img className='prada' src={prada} alt="" />
+                <img className='calvinklein' src={calvinklein} alt="" />
+            </div>
+
 
         </div>
     )

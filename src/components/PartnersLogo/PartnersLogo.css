@@ -1,8 +1,24 @@
-.partnerslogo{
-    background-color: black;
-    color: white;
+.partnerslogo {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+  padding: 25px 60px;
+}
+.prada {
+  padding-right: 60px;
+}
+
+@media (max-width: 750px) {
+  .partnerslogo {
+    flex-direction: column;
+    padding: 30px 70px;
+    gap: 15px;
+  }
+
+  .partnerslogo-column-two {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 60px;
+  }
 }
