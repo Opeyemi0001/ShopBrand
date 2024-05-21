@@ -3,18 +3,24 @@
   color: white;
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 50px;
   align-items: center;
   padding: 25px 60px;
 }
 .prada {
   padding-right: 60px;
 }
-
+@media (max-width: 1150px) {
+  .partnerslogo {
+    flex-direction: column;
+    padding: 15px 70px;
+    gap: 15px;
+  }
+}
 @media (max-width: 750px) {
   .partnerslogo {
     flex-direction: column;
-    padding: 30px 70px;
+    padding: 15px 70px;
     gap: 15px;
   }
 

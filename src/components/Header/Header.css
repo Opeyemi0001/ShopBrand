@@ -50,6 +50,12 @@
   font-size: 14px;
   font-weight: 500;
 }
+.header-contents button:hover {
+  cursor: pointer;
+  color: #242424;
+  background: #c3c3c3;
+  transition: 0.5s;
+}
 .header-figures {
   display: flex;
   gap: 3vw;

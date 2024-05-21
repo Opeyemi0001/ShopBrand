@@ -1,42 +1,41 @@
-.happycustomer{
-    margin: 50px 0px;
+.happycustomer {
+  margin: 50px 0px;
 }
-.happycustomer-header{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto ;
+.happycustomer-header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
 }
-.happycustomer-header h3{
-    font-size: 45px;
-    font-weight: 700;
+.happycustomer-header h3 {
+  font-size: 45px;
+  font-weight: 700;
 }
-.happycustomer-reviews{
-    margin: 25px 0px;
-    display: flex;
-    gap: 15px;
-    overflow-x: scroll;
+.happycustomer-reviews {
+  margin: 25px 0px;
+  display: flex;
+  gap: 15px;
+  overflow-x: scroll;
 }
-.happycustomer-reviews::-webkit-scrollbar{
-    display: none;
+.happycustomer-reviews::-webkit-scrollbar {
+  display: none;
 }
-.happycustomer-reviews h4{
-    font-weight: 700;
-    font-size: 19px;
-    position: relative;
+.happycustomer-reviews h4 {
+  font-weight: 700;
+  font-size: 19px;
+  position: relative;
 }
-.happycustomer-reviews h4 img{
-    position: absolute;
-    max-width: 20px;
-    margin-left: 4px;
-    margin-top: 2px;
+.happycustomer-reviews h4 img {
+  position: absolute;
+  max-width: 20px;
+  margin-left: 4px;
+  margin-top: 2px;
 }
-.happycustomer-review{
-    border-radius: 20px;
-    border: 1px solid #0000001A;
-    padding: 28px 20px;
+.happycustomer-review {
+  border-radius: 20px;
+  border: 1px solid #0000001a;
+  padding: 28px 20px;
 }
-.happycustomer-review p{
-    color: #00000099;
-
+.happycustomer-review p {
+  color: #00000099;
 }

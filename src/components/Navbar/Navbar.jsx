@@ -6,6 +6,7 @@ import selectArrow from "../../assets/Homepage/selectArrow.png";
 import searchBar from "../../assets/Homepage/search_icon.png";
 import navIcon from "../../assets/Homepage/NavIcon.png";
 import searchIconBlack from "../../assets/Homepage/searchIconBlack.png";
+// import cancelIcon from "../../assets/Homepage/cancel.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -15,8 +16,10 @@ const Navbar = () => {
     <div className="navbar">
       <img className="navicon" src={navIcon} alt="" />
       <h1 className="logo">SHOP.CO</h1>
+
       <div className="navbar-menu">
         <ul className="menu-list">
+          {/* <img src={cancelIcon} alt="" /> */}
           <Link to='/'
             onClick={() => setMenu("shop")}
             className={menu === "shop" ? "active" : ""}
@@ -42,11 +45,13 @@ const Navbar = () => {
             Brands{menu === "brands" ? <img src={selectArrow} alt="" /> : null}{" "}
           </a>
         </ul>
+
       </div>
+
 
       <div className="navbar-right">
         <div className="search-bar">
-            <img src={searchBar} alt="" />
+          <img src={searchBar} alt="" />
           <input
             type="text"
             className="basketIcon"

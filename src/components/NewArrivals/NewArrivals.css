@@ -39,6 +39,13 @@
   position: absolute;
   right: 45%;
 }
+.newarrivals-contents button:hover {
+  cursor: pointer;
+  background: #000000;
+  color: #ededed;
+  border: none;
+  transition: 0.3s;
+}
 .newarrivals hr {
   background-color: #0000001a;
   height: 2px;
@@ -50,7 +57,7 @@
   .newarrivals-clothes {
     overflow-x: scroll;
   }
-  .newarrivals-clothest::-webkit-scrollbar {
+  .newarrivals-clothes::-webkit-scrollbar {
     display: none;
   }
 }

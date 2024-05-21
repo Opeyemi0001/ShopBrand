@@ -6,6 +6,8 @@ import starReview from "../../assets/Homepage/starreview.png";
 import nameTick from "../../assets/Homepage/nametick.png";
 
 const HappyCustomer = () => {
+
+
   return (
     <div className="happycustomer">
       <div className="happycustomer-content">
